@@ -1,22 +1,20 @@
-[
-	{
-		"medType":"媒体类型",
-		"resType":"研究类型",
-		"isTranslated":"是否译作",
-		"title":"标题",
-		"authors":[{
-			"name":"原作者姓名",
-			"subTitles" : "原作者子标题"
-		}],
-		"keywords":"关键词",
-		"editors":[{
-			"name":"编辑者",
-			"subTitles" : "编辑者子标题"
-		}],
-		"dtPublic":"出版时间",
-		"creativetime":"创建时间",
-		"language":"语种",
-		"pubPlace":"出版地",
-		"creativePlace":"创建地"
-	}
-]
+{
+	"medType":"媒体类型",
+	"resType":"研究类型",
+	"isTranslated":"是否译作",
+	"title":"标题",
+	"authors":[{
+		"name":"原作者姓名",
+		"subTitles" : "原作者子标题"
+	}],
+	"keywords":"关键词",
+	"editors":[{
+		"name":"编辑者",
+		"subTitles" : "编辑者子标题"
+	}],
+	"dtPublic":"出版时间",
+	"creativetime":"创建时间",
+	"language":"语种",
+	"pubPlace":"出版地",
+	"creativePlace":"创建地"
+}
