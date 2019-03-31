@@ -16,7 +16,7 @@
 	    	"children":[{
 	        	"index":"序号",
 	        	"name":"姓名"
-	    	}],
+	    	}]
 		},
 	    "digest": "摘要",
 	    "keywords": ["关键字"],
@@ -30,7 +30,7 @@
 	    	"children":[{
 	        	"index":"序号",
 	        	"name":"姓名"
-	    	}],
+	    	}]
 		},
 	    "publishMsg": {
 	    	"name":"出版信息",
