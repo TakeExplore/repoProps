@@ -1,22 +1,127 @@
 {
-	"medType":"媒体类型",
-	"resType":"研究类型",
-	"isTranslated":"是否译作",
-	"title":"标题",
-	"authors":{
-		"name":"原作者姓名",
-		"subTitles" : "原作者子标题"
+	"keyName":{
+	    "type": "类型",
+	    "language": "语种",
+	    "mediaType": "媒体类型",
+	    "title": {
+	    	"name":"标题",
+	    	"children":{
+	        	"mainTitle":"主标题",
+	        	"subTitle":"副标题",
+	        	"version":"版本"
+	    	}
+		},
+	    "authors": {
+	    	"name":"作者",
+	    	"children":[{
+	        	"index":"序号",
+	        	"name":"姓名"
+	    	}],
+		},
+	    "digest": "摘要",
+	    "keywords": ["关键字"],
+	    "periodical": ["期刊"],
+	    "chapter": "卷",
+	    "phase": "期",
+	    "page": "页码",
+	    "publishingHouse": "出版社",
+	    "editors": {
+	    	"name":"编辑",
+	    	"children":[{
+	        	"index":"序号",
+	        	"name":"姓名"
+	    	}],
+		},
+	    "publishMsg": {
+	    	"name":"出版信息",
+	    	"children":{
+		        "time":{"GC":"公立时间","RC":"民国时间"},
+		        "place":{"nowPlace":"现地址","oldPlace":"旧地址"}
+		    }
+	    },
+	    "createMsg": {
+	    	"name":"创作信息",
+	    	"children":{
+		        "time":{"GC":"公立时间","RC":"民国时间"},
+		        "place":{"nowPlace":"现地址","oldPlace":"旧地址"}
+		    }
+	    },
+	    "source": {
+	    	"name":"来源",
+	    	"children":{"value":"值","type":"值"}
+		},
+	    "content": "文献内容存储",
+	    "originalText": "文献原文",
+	    "catalog": {
+	    	"name":"目录",
+	    	"children":{"value":"值","type":"值"}
+		},
+	    "preface": {
+	    	"name":"前言",
+	    	"children":{"value":"值","type":"值"}
+		},
+	    "foreword": {
+	    	"name":"序言",
+	    	"children":{"value":"值","type":"值"}
+		},
+	    "afterword": {
+	    	"name":"后记",
+	    	"children":{"value":"值","type":"值"}
+		},
+	    "commentObject": "评论对象",
+	    "printNum": "印数",
+	    "ztflh": "中图分类号",
+	    "doi": "doi",
+	    "translated": {
+	    	"name":"是否译作",
+	    	"children":false
+	    },
+	    "xuba": "序跋"
 	},
-	"keywords":"关键词",
-	"editors":{
-		"name":"编辑者",
-		"subTitles" : "编辑者子标题"
-	},
-	"dtPublic":"出版时间",
-	"creativetime":"创建时间",
-	"language":"语种",
-	"pubPlace":"出版地",
-	"creativePlace":"创建地",
-	"file":"",
-	"accessories":[{"name": "", "file": ""}]
+	"keyContent":{
+	    "type": null,
+	    "language": null,
+	    "mediaType": null,
+	    "title": {
+	        "mainTitle":null,
+	        "subTitle":null,
+	        "version":null
+	    },
+	    "authors": [{
+	        "index":null,
+	        "name":null
+	    }],
+	    "digest": null,
+	    "keywords": [],
+	    "periodical": [],
+	    "chapter": null,
+	    "phase": null,
+	    "page": null,
+	    "publishingHouse": null,
+	    "editors": [{
+	        "index":null,
+	        "name":null
+	    }],
+	    "publishMsg": {
+	        "time":{"GC":"","RC":""},
+	        "place":{"nowPlace":"","oldPlace":""}
+	    },
+	    "createMsg": {
+	        "time":{"GC":"","RC":""},
+	        "place":{"nowPlace":"","oldPlace":""}
+	    },
+	    "source": {"value":"","type":""},
+	    "content": "",
+	    "originalText": "",
+	    "catalog": {"value":"","type":""},
+	    "preface": {"value":"","type":""},
+	    "foreword": {"value":"","type":""},
+	    "afterword": {"value":"","type":""},
+	    "commentObject": null,
+	    "printNum": null,
+	    "ztflh": "",
+	    "doi": "",
+	    "translated": false,
+	    "xuba": ""
+	}
 }
